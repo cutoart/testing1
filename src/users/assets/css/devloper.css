@@ -1,0 +1,11 @@
+.hero-banner-img {
+  background-image: url("../images/hero-banner.png");
+  background-size: cover;
+}
+.sectoin-title h4 {
+  font-size: 19px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 6px;
+  font-style: inherit;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script src="/assets/js/jquery-3.5.1.min.js"></script>
+  <script src="/assets/js/bootstrap.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+ 
+  <script src="/assets/js/slick.min.js"></script>
+  <script src="/assets/js/custom.js"></script>
+  <script>
+    $('.carousel').carousel({
+      interval: 2000,
+      pagination: false
+    });
+  </script>
+</head>
+
+<body oncontextmenu="return false">  
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <!-- <script>    
+    document.onkeydown = function (e) {
+      if (event.keyCode == 123) {        
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+      }
+    }
+  </script> --><style>
+   .header header--offline header--flat js-header{
+      background-color: red !important;
+    }
+    .container__inner{
+      background-color: red !important;
+    }
+  </style>
+  <script>
+    (function(d, w, c) {
+      w.ChatraID = "sM8pPGPAH6ebgXPnD";
+      var s = d.createElement("script");
+      w[c] =
+        w[c] ||
+        function() {
+          (w[c].q = w[c].q || []).push(arguments);
+        };
+      s.async = true;
+      s.src = "https://call.chatra.io/chatra.js";
+      if (d.head) d.head.appendChild(s);
+    })(document, window, "Chatra");
+    document.getElementById("chatra").style.backgroundColor = "red";
+    </script>
+    <script src="https://js.stripe.com/v3/"></script>    
+    
+</body>
+
+</html>
